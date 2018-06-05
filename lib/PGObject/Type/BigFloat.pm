@@ -19,6 +19,12 @@ Version 2.001
 
 our $VERSION = 2.001000;
 
+our ($accuracy, $precision, $round_mode, $div_scale);
+
+# Globals
+$accuracy = $precision = undef;
+$round_mode = 'even';
+$div_scale = 40;
 
 =head1 SYNOPSIS
 
